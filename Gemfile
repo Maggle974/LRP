@@ -1,12 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+# gem 'rails', '3.0.3'
 
+gem 'rails', '~> 4.0', '>= 4.0.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+gem 'devise'
+
+# gem 'activerecord', '~> 3.0', '>= 3.0.3'
+# gem 'activesupport' = 3.0.3
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -28,4 +33,4 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # and rake tasks are available in development mode:
 # group :development, :test do
 #   gem 'webrat'
-# end
+#end
