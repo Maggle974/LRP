@@ -1,0 +1,25 @@
+{
+  "name": "lrp",
+  "version": "1.0.0",
+  "description": "== Welcome to Rails",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maggle974/LRP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maggle974/LRP/issues"
+  },
+  "homepage": "https://github.com/Maggle974/LRP#readme"
+}
