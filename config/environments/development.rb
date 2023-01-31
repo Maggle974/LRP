@@ -25,4 +25,6 @@ LRP::Application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  # root to: 'home#index'
+  config.eager_load = false
 end

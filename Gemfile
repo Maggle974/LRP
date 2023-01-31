@@ -1,20 +1,22 @@
 source 'http://rubygems.org'
 
 # gem 'rails', '3.0.3'
-
-gem 'rails', '~> 4.0', '>= 4.0.6'
+gem 'rails', '~> 6.0', '>= 6.0.2'
+#gem 'rails', '> 4.0', '>= 4.0.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'devise'
-
-# gem 'activerecord', '~> 3.0', '>= 3.0.3'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+# gem 'devise'
+# gem 'sorcery'
+# gem 'devise'
+  gem 'activerecord', '~> 6.1', '>= 6.1.7.2'
 # gem 'activesupport' = 3.0.3
 # Use unicorn as the web server
 # gem 'unicorn'
-
+  gem 'puma', '~> 5.2'
 # Deploy with Capistrano
 # gem 'capistrano'
 
