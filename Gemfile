@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+gem 'cloudinary'
+gem "image_processing", ">= 1.2"
 # gem 'rails', '3.0.3'
 gem 'rails', '~> 6.0', '>= 6.0.2'
 #gem 'rails', '> 4.0', '>= 4.0.6'

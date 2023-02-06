@@ -21,7 +21,7 @@ class PicturesController < ApplicationController
 
   # POST /pictures
   def create
-    @picture = Picture.new(picture_params)
+    @picture = Picture.new(event_id: 1)
 
     if @picture.save
       redirect_to @picture, notice: 'Picture was successfully created.'
