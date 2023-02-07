@@ -1,4 +1,9 @@
 <h1>New Picture</h1>
+<%#= cl_image_tag @picture.event.key, height: 300, width: 400, crop: :fill %>
+<%= form_for @picture, url: pictures_path, html: { multipart: true } do |f| %>
+  <%= f.file_field :picture %>
+  <%= f.submit "Upload" %>
+<% end %>
 
 <%= render 'form', picture: @picture %>
 

@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'simple_form', '~> 5.2'
 gem 'cloudinary'
 gem "image_processing", ">= 1.2"
 # gem 'rails', '3.0.3'
